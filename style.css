@@ -689,7 +689,7 @@ ul li{
 .blend{
     width: 100%;
     background-color: #1a1a1a;
-    color: var(--text);
+    color: #fff;
     font-weight: bolder;
     font-size: large;
     padding: 5px 5px;
@@ -932,7 +932,7 @@ input::placeholder{
         justify-content: start;
         align-items: start;
         row-gap: 25px;
-        background-color: var(--bgsec);
+        background-color: #ffffff;
         transition: all 0.2s;
         box-shadow:  0px 0px 30px #b19b9b;;
     }
