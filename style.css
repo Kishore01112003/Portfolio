@@ -485,40 +485,65 @@ ul li{
       text-align: center;
       padding: 20px 0px 30px 0px;
 }
-.background{
+.background {
     border-radius: 15px;
     width: 600px;
     height: 400px;
-    margin:20px;
+    margin: 20px;
     animation: certi 18s step-end infinite;
 }
-@keyframes certi{
-    0%{
+
+@keyframes certi {
+    0% {
         background-image: url(./certificate/aws\ data.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow: 0px 0px 40px rgb(250, 3, 3);
     }
-    25%{
+    12% {
         background-image: url(./certificate/aws\ foun.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow: 0px 0px 40px rgb(250, 233, 3);
     }
-    50%{
+    24% {
         background-image: url(./certificate/aws\ ops.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow: 0px 0px 40px rgb(11, 250, 3);
     }
-    75%{
-        background-image: url(./certificate/intro.jpg);
+    36% {
+        background-image: url(./certificate/Mckensy.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow: 0px 0px 40px rgba(159, 3, 250, 0.966);
     }
-    100%{
+    48% {
+        background-image: url(./certificate/networking.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 40px rgba(159, 3, 250, 0.966);
+    }
+    60% {
+        background-image: url(./certificate/intro.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 40px rgb(250, 3, 3);
+    }
+    72% {
+        background-image: url(./certificate/net.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 40px rgb(250, 233, 3);
+    }
+    84% {
         background-image: url(./certificate/pyth.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 40px rgb(11, 250, 3);
+    }
+    100% {
+        background-image: url(./certificate/dlk.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow: 0px 0px 40px rgba(159, 3, 250, 0.966);
